@@ -1,0 +1,71 @@
+/* This is my style sheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px ;
+}
+#main-bio {
+    width: 100%;
+}
+#contact-info {
+    width: 100%;
+    margin-left: 20px;
+}
+.gallery img{
+    width: 100%;
+}
+#about-me {
+    width: 100%;
+}
+a {
+    color: blue;
+  }
+h2 {
+   font-size: 24px;
+   margin-bottom: .5rem;
+}
+h1 {
+    /* Box-model */
+    padding: 20px 0;
+  
+    /* Positioning */
+    margin: 0;
+    margin-bottom: .5rem;
+    font-size: 40px;
+  
+    /* Typography */
+    color: #eee;
+    text-align: center;
+  
+    /* Visual */
+    background: #333;
+  }
+body {
+    /* Box-model */
+    padding: 0;
+  
+    /* Positioning */
+    margin: 0;
+    margin-bottom: 1rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    /* Typography */
+    font-size: 1rem;
+    line-height: 150%;
+    color: #333;
+  
+    /* Visual */
+    background: #fff;
+  }
+ul {
+    margin-bottom: 1rem;
+}
+
+/* --------------------------------------------------*/
